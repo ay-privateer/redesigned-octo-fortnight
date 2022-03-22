@@ -18,5 +18,5 @@ spec:
           ports:
             - containerPort: 8080
           env:
-            - name: NGINX_PORT
+            - name: "NGINX_PORT"
               value: 8080
